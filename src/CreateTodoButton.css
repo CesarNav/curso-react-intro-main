@@ -1,0 +1,20 @@
+.CreateTodoButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.CreateTodoButton button {
+    background-color: #18b3a8;
+    color: #DAFFFB;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.CreateTodoButton button:hover {
+    background-color: #176B87;
+    transition: background-color 0.3s ease;
+}

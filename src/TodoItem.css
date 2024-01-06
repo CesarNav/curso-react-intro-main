@@ -1,0 +1,53 @@
+.TodoItem  {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #176B87;
+}
+
+.Icon {
+    color: #DAFFFB;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.Icon-check {
+    color: #176787;
+}
+
+.Icon-check--active {
+    color: #DAFFFB;
+    background-color: #18b3a8;
+}
+
+.TodoItem-p {
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+    overflow-wrap: break-word; /* Añade un salto de línea automático para palabras largas */
+    text-overflow: ellipsis; /* Añade puntos suspensivos para texto que desborda el contenedor */
+    white-space: nowrap; /* Evita que el texto se desborde horizontalmente */
+}
+
+.TodoItem-p--completed {
+    text-decoration: line-through;
+}
+
+.Icon-delete {
+    color: #176B87;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.Icon-delete:hover {
+    color: #87171b;
+    transition: background-color 0.3s ease;
+}
