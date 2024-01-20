@@ -17,11 +17,16 @@
 
 .Icon-check {
     color: #176787;
+    background-color: #DAFFFB;
 }
 
-.Icon-check--active {
+.Icon-check--completed {
     color: #DAFFFB;
     background-color: #18b3a8;
+}
+
+.TodoItem-p--completed {
+    text-decoration: line-through;
 }
 
 .TodoItem-p {
@@ -33,9 +38,7 @@
     white-space: nowrap; /* Evita que el texto se desborde horizontalmente */
 }
 
-.TodoItem-p--completed {
-    text-decoration: line-through;
-}
+
 
 .Icon-delete {
     color: #176B87;
